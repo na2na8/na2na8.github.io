@@ -7,6 +7,7 @@ tags:
 - RelationExtraction
 categories:
 - FinancialDomainLM
+- NLP
 ---
 
 ## Intro
@@ -61,7 +62,6 @@ import torch
 from torch.utils.data import DataLoader, Dataset
 import transformers
 from transformers import AutoTokenizer, AutoModel, DataCollatorWithPadding
-from transformers import DataCollatorWithPadding
 
 class FinREDDataset(Dataset) :
     def __init__(self, path, tokenizer, special_tokens) :
