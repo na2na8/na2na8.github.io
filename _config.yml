@@ -134,7 +134,7 @@ yat:
 # it will be always kept on every visit (i.e. no matter
 # the browser is closed or not)
 #
-# night_mode: "auto"
+night_mode: "on/off"
 
 # Code badge setting
 # You can enable or disable the code badge and so on
@@ -198,12 +198,12 @@ yat:
 # See https://utteranc.es/
 # set follow_site_theme true to make utterances' theme follow the site's
 
-# utterances:
-#   repo: "owner/repo"
-#   issue_term: "title"
-#   label: "utterances comment"
-#   theme: "github-light"
-#   follow_site_theme: true
+utterances:
+  repo: "na2na8/na2na8.github.io"
+  issue_term: "title"
+  label: "utterances comment"
+  theme: "boxy-light"
+  follow_site_theme: true
 
 # Build settings
 # highlighter: none
