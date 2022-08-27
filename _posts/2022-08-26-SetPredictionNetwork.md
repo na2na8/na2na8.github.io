@@ -122,11 +122,15 @@ $$
 
 예시
 > Aarhus airport serves the city of Aarhus , which is led by Jacob Bundsgaard .
+
+
 - 띄어쓰기를 기준으로 토큰 구분한다고 생각(index 0부터 매김)
 - Ground Truth
+
   > $\mathbf{Y}_0 = \\{0, 6, 6, 12, 13\\}$  
   > $\mathbf{Y}_1 = \\{1, 0, 1, 6, 6\\}$  
   > $\mathbf{Y}_2 = \\{3\\}$
+  
 - Predicted
 
   ![SPN_2](/assets/images/posts/SPN_2.png)
